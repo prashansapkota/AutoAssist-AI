@@ -1,9 +1,6 @@
-import sys
+
 import os
 from dotenv import load_dotenv, find_dotenv
-
-# Add the directory containing utils.py to the Python path
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 def load_env():
     """Load environment variables from a .env file."""
