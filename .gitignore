@@ -1,0 +1,5 @@
+   # Ignore environment variables file
+   .env
+
+   # Ignore any files with a .key extension
+   *.key
